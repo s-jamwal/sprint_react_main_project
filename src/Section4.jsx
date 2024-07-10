@@ -15,7 +15,7 @@ const Section4 = () => {
             <h2 className="text-lg font-semibold text-gray-600 ml-20 mb-5">
                 SOME OF THE APIS WE WORK WITH
             </h2>
-            <div className="flex flex-wrap  ml-20 items-center" data-aos='fade-up' fade-duration='1000'>
+            <div className="flex flex-wrap  ml-20 items-center space-x-16" data-aos='fade-up' fade-duration='1000'>
                 <img src={apia} alt="Shopify" className="w-24 m-4" />
                 <img src={apib} alt="Stripe" className="w-24 m-4" />
                 <img src={apic} alt="Workflow Max" className="w-24 m-4" />

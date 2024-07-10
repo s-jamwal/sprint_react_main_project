@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import ScrollToTop from './ScrollToTop';
 import Nav from './Nav';
 import About from './About';
 import Services from './Services';
@@ -15,6 +16,7 @@ const App = () => {
   return (
     <>
       <Nav />
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

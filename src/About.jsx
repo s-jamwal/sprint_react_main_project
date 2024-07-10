@@ -8,7 +8,7 @@ import Digc from './assets/digc.png';
 import ScrollingText from './ScrollingText';
 import AboutImage from './AboutImage';
 import curveBg from './assets/serviceCurveImage1.svg';
-
+import RotatingCircle from './service_Circles_animation.jsx';
 
 const About = () => {
   useEffect(() => {
@@ -143,7 +143,7 @@ const About = () => {
           </div>
         </div>
         <div className='pt-10 md:pt-40 pl-10 md:pl-20 pb-8'>
-        
+          <RotatingCircle />
         </div>
       </div>
       <div className="bg-[#0DC9C5] text-white text-center py-16">

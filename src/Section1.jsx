@@ -10,11 +10,11 @@ const Section1 =()=> {
                 <div className="ml-4 mt-10 sm:ml-10 sm:mt-20 custom_opacity_h1">
                     <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-bold space-x-2 sm:space-x-4 md:space-x-8 fade-in translate-y-16">
                         <span className="text-[#0DC9C5] custom_opacity_span_h1">Unique</span>
-                        <span className="text-white">Problems?</span>
+                        <span className="text-white">Problems<span className='pl-2'>?</span></span>
                     </h1>
                     <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-9xl font-bold space-x-2 sm:space-x-4 md:space-x-8 fade-in-delay -translate-y-16">
                         <span className="text-white">Unique</span>
-                        <span className="text-[#0DC9C5] opacity-0 custom_opacity_span_h1">Solutions.</span>
+                        <span className="text-[#0DC9C5] opacity-0 custom_opacity_span_h1">Solutions<span className='pl-2'>.</span></span>
                     </h1>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2">

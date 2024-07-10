@@ -19,20 +19,20 @@ const Section3 = () => {
                     <div className="relative flex justify-center items-center" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
                         <img
                             src={phonearrowleft}
-                            className="absolute left-8 bottom-16 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-16"
+                            className="absolute left-24 bottom-44 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-16"
                             data-aos="fade-right"
                             data-aos-duration="500"
                             data-aos-delay="200"
                         />
                         <div className="relative">
-                            <img src={phone} className="h-60 sm:h-72 md:h-96 lg:h-[40rem] xl:h-[50rem]" />
+                            <img src={phone} className="h-60 sm:h-72 md:h-80 lg:h-[35rem] xl:h-[45rem]" />
                         </div>
                         <img
                             src={phonearrowright}
-                            className="absolute right-8 top-8 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform translate-y-6 sm:translate-y-8 md:translate-y-10 lg:translate-y-12 xl:translate-y-16"
+                            className="absolute right-28 top-40 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform translate-y-6 sm:translate-y-8 md:translate-y-10 lg:translate-y-12 xl:translate-y-16"
                             data-aos="fade-left"
                             data-aos-duration="500"
-                            data-aos-delay="200"
+                           
                         />
                     </div>
 

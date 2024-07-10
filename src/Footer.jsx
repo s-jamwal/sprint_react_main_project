@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,9 +18,16 @@ const Footer = () => {
                             <div className="explore flex flex-col space-y-5">
                                 <h2 className="text-lg text-white opacity-75">EXPLORE</h2>
                                 <ul className="flex-col space-y-5">
-                                    <li>About</li>
-                                    <li>Projects</li>
-                                    <li>Careers</li>
+                                <li><Link to="/about">About</Link></li>
+                                
+                                <li><Link to="/projects">Projects</Link></li>
+                               
+                                <li><Link to="/articles">Articles</Link></li>
+                              
+                                <li><Link to="/savingcalculator">Saving Calculator</Link></li>
+                                
+                                <li><Link to="/Services">Services</Link></li>
+
                                 </ul>
                             </div>
                             <div className="explore flex flex-col space-y-5 pt-8 m-0">
