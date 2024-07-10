@@ -22,7 +22,7 @@ const Service = () => {
       <div className="bg-white pt-20 md:pt-0 md:pl-12 md:pr-0 lg:pl-24 lg:pr-0 xl:pl-36 xl:pr-0 ">
         <div className="flex flex-col space-y-4 md:space-y-6 justify-center p-6 lg:p-16 lg:pl-0">
           <div>
-            <h1 className="text-[#888888] font-medium text-sm md:text-lg lg:text-xl pt-16">
+            <h1 className="text-[#888888] font-medium text-sm md:text-lg lg:text-xl pt-10">
               OUR SERVICES
             </h1>
           </div>
