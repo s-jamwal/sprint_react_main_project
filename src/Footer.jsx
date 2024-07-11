@@ -18,15 +18,15 @@ const Footer = () => {
                             <div className="explore flex flex-col space-y-5">
                                 <h2 className="text-lg text-white opacity-75">EXPLORE</h2>
                                 <ul className="flex-col space-y-5">
-                                <li><Link to="/about">About</Link></li>
-                                
-                                <li><Link to="/projects">Projects</Link></li>
-                               
-                                <li><Link to="/articles">Articles</Link></li>
-                              
-                                <li><Link to="/savingcalculator">Saving Calculator</Link></li>
-                                
-                                <li><Link to="/Services">Services</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+
+                                    <li><Link to="/projects">Projects</Link></li>
+
+                                    <li><Link to="/articles">Articles</Link></li>
+
+                                    <li><Link to="/savingcalculator">Saving Calculator</Link></li>
+
+                                    <li><Link to="/Services">Services</Link></li>
 
                                 </ul>
                             </div>
@@ -39,40 +39,31 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center justify-end lg:justify-center px-0 md:px-36 md:pl-72 py-14 md:py-28">
+                    <div className="flex flex-col md:flex-row items-center justify-center px-4 sm:px-8 md:px-36 py-10 md:py-28">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
-                            <div className="review self-end">
+                            <div className="review self-end md:self-center">
                                 <div className="text-xs text-white opacity-75">
                                     <p>REVIEWED ON</p>
                                     <div className="flex items-center">
-                                        <span className="text-white text-3xl font-bold">Clutch</span>
+                                        <span className="text-white text-xl sm:text-2xl md:text-3xl font-bold">Clutch</span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col space-y-2">
-                                <div className="flex items-center space-x-1">
-                                    <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
-                                    </svg>
-                                    <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
-                                    </svg>
-                                    <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
-                                    </svg>
-                                    <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
-                                    </svg>
-                                    <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
-                                    </svg>
+                            <div className="flex flex-col space-y-2 md:space-y-0 md:ml-4">
+                                <div className="flex items-center justify-center md:justify-start space-x-1">
+                                    {Array(5).fill().map((_, i) => (
+                                        <svg key={i} className="w-5 h-5 sm:w-6 sm:h-6 text-red-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.975a1 1 0 00.95.69h4.18c.969 0 1.371 1.24.588 1.81l-3.392 2.463a1 1 0 00-.364 1.118l1.286 3.975c.3.921-.755 1.688-1.538 1.118L10 13.347l-3.393 2.463c-.783.57-1.838-.197-1.538-1.118l1.286-3.975a1 1 0 00-.364-1.118L2.598 9.402c-.783-.57-.38-1.81.588-1.81h4.18a1 1 0 00.95-.69l1.286-3.975z"></path>
+                                        </svg>
+                                    ))}
                                 </div>
-                                <div className="text-sm text-gray-400">
+                                <div className="text-xs sm:text-sm text-gray-400 text-center md:text-left">
                                     <p>7 REVIEWS</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div className="terms-and-conditions flex flex-col md:flex-row px-8 md:px-36 py-10 md:py-14 justify-between items-center">
                     <div className="flex space-x-10 text-sm text-white opacity-75">
