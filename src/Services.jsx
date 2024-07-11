@@ -22,18 +22,18 @@ const Service = () => {
       <div className="bg-white  pt-6 md:pt-6 md:pl-12 md:pr-0 lg:pl-24 lg:pr-0 xl:pl-36 xl:pr-0 ">
         <div className="flex flex-col space-y-4 md:space-y-6 justify-center p-6 lg:p-16 lg:pl-0">
           <div>
-            <h1 className="text-[#888888] font-medium text-sm md:text-lg lg:text-xl pt-8">
+            <h1 className="text-[#888888] font-medium text-md md:text-lg lg:text-xl pt-8">
               OUR SERVICES
             </h1>
           </div>
           <div>
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold leading-tight flex flex-col">
+            <h1 className="text-4xl md:text-4xl lg:text-6xl font-bold leading-tight flex flex-col">
               <span className="text-[#212529]">Custom Software</span>
               <span className="text-[#0DC9C5]">Development Services</span>
             </h1>
           </div>
           <div>
-            <p className="font-medium text-sm md:text-base lg:text-lg text-[#212529] leading-relaxed md:w-[45rem] md:pb-11">
+            <p className="font-medium text-md md:text-base lg:text-lg text-[#212529] leading-relaxed md:w-[45rem] md:pb-11">
               We are an Australia-based software agency that designs and develops digital products for the people that use them. Our strength lies in our talented team and our capability to develop end-to-end business process solutions in-house.
             </p>
           </div>
