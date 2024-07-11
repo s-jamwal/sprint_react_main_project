@@ -19,7 +19,7 @@ const Section3 = () => {
                     <div className="relative flex justify-center items-center" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
                         <img
                             src={phonearrowleft}
-                            className="absolute left-24 bottom-44 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-16"
+                            className="absolute left-24  bottom-44 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-16"
                             data-aos="fade-right"
                             data-aos-duration="500"
                             data-aos-delay="200"

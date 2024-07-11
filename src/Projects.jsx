@@ -5,14 +5,14 @@ import ScrollingText from './ScrollingText';
 const Project = () => {
   return (
     <>
-      <div className="bg-white px-20 py-16">
+      <div className="bg-white px-4 md:px-20 py-16">
         <div className="flex flex-col items-start mb-12">
           <br />
           <br />
           <br />
-          <p className="text-xl text-gray-500 font-semibold uppercase">FEATURED PROJECTS</p>
+          <p className="text-lg md:text-xl text-gray-500 font-semibold uppercase">FEATURED PROJECTS</p>
           <br />
-          <h1 className="text-7xl font-bold leading-tight">
+          <h1 className="text-4xl md:text-7xl font-bold leading-tight">
             See what we can
             <span className="text-[#0DC9C5]"> do <br /> for you</span>
           </h1>

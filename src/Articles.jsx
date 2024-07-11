@@ -13,7 +13,7 @@ import Footer from './Footer';
 const Articles = () => {
   return (
     <>
-      <div className="bg-white px-4 md:px-20 py-16">
+      <div className="bg-white px-4 md:px-20 py-6 md:py-20 ">
         <div className="flex flex-col items-start mb-12 ">
           <br/>
           <br/>

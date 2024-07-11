@@ -49,6 +49,9 @@ const Navbar = () => {
     } else {
       setBgColor('#ffffff'); // Default to white if section1 doesn't exist
     }
+
+    // Close the hamburger menu on route change
+    setIsOpen(false);
   }, [location]);
 
   const toggleMenu = () => {
@@ -116,9 +119,9 @@ const Navbar = () => {
         </div>
         {isOpen && (
           <div className="md:hidden mt-4 space-y-4">
-            <Link to="/about" className="block underline-animation font-bold">About</Link>
-            <Link to="/services" className="block underline-animation font-bold">Services</Link>
-            <Link to="/projects" className="block underline-animation font-bold">Projects</Link>
+            <Link to="/about" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>About</Link>
+            <Link to="/services" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>Services</Link>
+            <Link to="/projects" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>Projects</Link>
             <div className="relative">
               <button
                 onMouseEnter={() => toggleDropdown(true)}
@@ -132,12 +135,12 @@ const Navbar = () => {
               </button>
               {isDropdownOpen && (
                 <div className="w-44 bg-white rounded-md z-10 " onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
-                  <Link to="/articles" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }}>Articles</Link>
-                  <Link to="/savingcalculator" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }}>Savings Calculator</Link>
+                  <Link to="/articles" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }} onClick={() => setIsOpen(false)}>Articles</Link>
+                  <Link to="/savingcalculator" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }} onClick={() => setIsOpen(false)}>Savings Calculator</Link>
                 </div>
               )}
             </div>
-            <Link to="/contact" className="block underline-animation font-bold">Contact</Link>
+            <Link to="/contact" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>Contact</Link>
           </div>
         )}
       </div>
