@@ -10,6 +10,7 @@ import legacydot from './assets/legacydot.png';
 import arrow1sec3 from './assets/arrow1sec3.svg';
 import arrow2sec3 from './assets/arrow2sec3.svg';
 import bglegacy from './assets/bglegacy.svg';
+import './Section3.css'
 
 const Section3 = () => {
     return (
@@ -19,7 +20,7 @@ const Section3 = () => {
                     <div className="relative flex justify-center items-center" data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
                         <img
                             src={phonearrowleft}
-                            className="absolute left-24  bottom-44 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform -translate-y-6 sm:-translate-y-8 md:-translate-y-10 lg:-translate-y-12 xl:-translate-y-16"
+                            className="absolute left-arrow sm:left-[10%] sm:bottom-[40%] h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 sm:transform sm:-translate-y-[50%]"
                             data-aos="fade-right"
                             data-aos-duration="500"
                             data-aos-delay="200"
@@ -29,12 +30,12 @@ const Section3 = () => {
                         </div>
                         <img
                             src={phonearrowright}
-                            className="absolute right-28 top-40 h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 transform translate-y-6 sm:translate-y-8 md:translate-y-10 lg:translate-y-12 xl:translate-y-16"
+                            className="absolute right-arrow sm:right-[10%] sm:top-[40%] h-6 sm:h-8 md:h-10 lg:h-12 xl:h-16 sm:transform sm:translate-y-[50%]"
                             data-aos="fade-left"
                             data-aos-duration="500"
-                           
                         />
                     </div>
+
 
                     <Section3content
                         heading="NATIVE APP DEVELOPMENT"
@@ -49,19 +50,19 @@ const Section3 = () => {
             <div className="bg-[#F7F7F7] pt-20 md:pt-40 overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="flex justify-center items-center relative order-first md:order-last">
-
                         <div className='relative'>
                             <div data-aos="zoom-out" data-aos-delay="100" data-aos-duration="1000">
-                                <img src={legacydot} className="absolute -translate-y-[5rem] w-60 md:-translate-y-[8rem] translate-x-10 md:translate-x-[10rem] md:w-96" />
+                                <img src={legacydot} className="absolute legacydot w-60 md:w-96" />
                             </div>
                             <div data-aos="zoom-out" data-aos-duration="1000">
                                 <img src={ipad} className="w-80 md:w-[80rem] pr-0 md:pr-12" />
                             </div>
                             <div data-aos="zoom-out" data-aos-duration="1000">
-                                <img src={ipadarrow} className="w-10 absolute -translate-y-16 md:-translate-y-24 translate-x-8 md:translate-x-16 md:w-16" />
+                                <img src={ipadarrow} className="ipad-arrow w-10 md:w-16 absolute" />
                             </div>
                         </div>
                     </div>
+
                     <Section3content
                         heading="LEGACY MODERNISATION"
                         paragraph="In business for over 40 years, the team at Rochele Painting approached us to write a new digital chapter in the history books. With such a longstanding legacy, a few old school processes needed a new coat of paint. To modernise Rochele's operations, we automated their whole workflow from inquiry through to invoicing."
