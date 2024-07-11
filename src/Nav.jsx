@@ -63,6 +63,8 @@ const Navbar = () => {
   };
 
   const navbarClass = bgColor === '#2a2a2a' ? 'navbar-dark' : '';
+  const textColor = bgColor === '#2a2a2a' ? 'white' : 'black';
+  const underlineColor = bgColor === '#2a2a2a' ? 'white' : 'black';
 
   const getLogo = () => {
     return bgColor === '#2a2a2a' ? logo : changedLogo;
@@ -75,7 +77,7 @@ const Navbar = () => {
           <Link to='/' className="text-black text-xl font-bold">
             <img src={getLogo()} alt="logo" />
           </Link>
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-8" style={{ color: textColor, '--underline-color': underlineColor }}>
             <Link to="/about" className="underline-animation font-bold">About</Link>
             <Link to="/services" className="underline-animation font-bold">Services</Link>
             <Link to="/projects" className="underline-animation font-bold">Projects</Link>
@@ -118,7 +120,7 @@ const Navbar = () => {
           </div>
         </div>
         {isOpen && (
-          <div className="md:hidden mt-4 space-y-4">
+          <div className="md:hidden mt-4 space-y-4" style={{ color: textColor, '--underline-color': underlineColor }}>
             <Link to="/about" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>About</Link>
             <Link to="/services" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>Services</Link>
             <Link to="/projects" className="block underline-animation font-bold" onClick={() => setIsOpen(false)}>Projects</Link>
@@ -134,7 +136,7 @@ const Navbar = () => {
                 </svg>
               </button>
               {isDropdownOpen && (
-                <div className="w-44 bg-white rounded-md z-10 " onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
+                <div className="w-44 bg-black rounded-md z-10 " onMouseEnter={() => toggleDropdown(true)} onMouseLeave={() => toggleDropdown(false)}>
                   <Link to="/articles" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }} onClick={() => setIsOpen(false)}>Articles</Link>
                   <Link to="/savingcalculator" className="block px-4 py-2 underline-animation font-bold" style={{ backgroundColor: bgColor === '#2a2a2a' ? '#2a2a2a' : '#ffffff' }} onClick={() => setIsOpen(false)}>Savings Calculator</Link>
                 </div>
