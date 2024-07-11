@@ -4,7 +4,7 @@ import Footer from './Footer.jsx';
 const Contact = () => {
   return (
     <>
-      <div className="flex flex-col lg:flex-row items-start justify-center mt-20 lg:p-16">
+      <div className="flex flex-col lg:flex-row items-start justify-center mt-20 lg:p-16 pb-10">
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
           <h2 className="text-lg md:text-xl text-gray-500 font-medium uppercase">CONTACT US</h2>
           <br />
@@ -83,7 +83,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 };
